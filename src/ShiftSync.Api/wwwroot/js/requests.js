@@ -88,6 +88,7 @@ function draw(main, ctx, { timeOff, swaps, week }) {
     swapForm.querySelector("[data-exchange]").hidden = !exchange;
   };
   kind.addEventListener("change", syncKind);
+  syncKind();
 
   main.querySelector("#time-form").addEventListener("submit", async (event) => {
     event.preventDefault();
