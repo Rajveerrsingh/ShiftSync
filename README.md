@@ -54,6 +54,11 @@ The UI is a small static SPA in `wwwroot`. There is no Node build. `dotnet run` 
 
 ## Run it
 
+```bash
+git clone https://github.com/Rajveerrsingh/ShiftSync
+cd ShiftSync
+```
+
 You need the .NET 8 SDK.
 
 ```bash
